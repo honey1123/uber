@@ -5,23 +5,41 @@
       "from": "Mumbai",
       "to": "Pune",
       "fare": 500,
+      "driver": "Rajesh Kumar",
       "rating": 4.5,
-      "estimatedTravelTime": "3 hours"
+      "vehicle": {
+        "make": "Maruti Suzuki",
+        "model": "Swift",
+        "year": 2019
+      },
+      "estimatedTravelTime": "3 hours 30 minutes"
     },
     {
       "id": 2,
       "from": "New Delhi",
       "to": "Jaipur",
       "fare": 800,
+      "driver": "Amit Singh",
       "rating": 4.7,
-      "estimatedTravelTime": "5 hours"
+      "vehicle": {
+        "make": "Hyundai",
+        "model": "i20",
+        "year": 2018
+      },
+      "estimatedTravelTime": "5 hours 30 minutes"
     },
     {
       "id": 3,
       "from": "Bengaluru",
       "to": "Mysuru",
       "fare": 450,
+      "driver": "Suresh Rao",
       "rating": 4.8,
+      "vehicle": {
+        "make": "Toyota",
+        "model": "Innova",
+        "year": 2020
+      },
       "estimatedTravelTime": "4 hours"
     },
     {
@@ -29,23 +47,41 @@
       "from": "Chennai",
       "to": "Pondicherry",
       "fare": 600,
+      "driver": "Vijay Kumar",
       "rating": 4.6,
-      "estimatedTravelTime": "3 hours 30 minutes"
+      "vehicle": {
+        "make": "Ford",
+        "model": "EcoSport",
+        "year": 2017
+      },
+      "estimatedTravelTime": "3 hours"
     },
     {
       "id": 5,
       "from": "Kolkata",
       "to": "Digha",
       "fare": 700,
+      "driver": "Anirudh Bose",
       "rating": 4.9,
-      "estimatedTravelTime": "4 hours 15 minutes"
+      "vehicle": {
+        "make": "Honda",
+        "model": "City",
+        "year": 2021
+      },
+      "estimatedTravelTime": "4 hours "
     },
     {
       "id": 6,
       "from": "Ahmedabad",
       "to": "Vadodara",
       "fare": 400,
+      "driver": "Nitin Desai",
       "rating": 4.4,
+      "vehicle": {
+        "make": "Tata",
+        "model": "Nexon",
+        "year": 2020
+      },
       "estimatedTravelTime": "2 hours"
     },
     {
@@ -53,7 +89,13 @@
       "from": "Hyderabad",
       "to": "Warangal",
       "fare": 550,
+      "driver": "Karthik Reddy",
       "rating": 4.7,
+      "vehicle": {
+        "make": "Skoda",
+        "model": "Octavia",
+        "year": 2019
+      },
       "estimatedTravelTime": "3 hours 45 minutes"
     },
     {
@@ -61,103 +103,181 @@
       "from": "Chandigarh",
       "to": "Amritsar",
       "fare": 650,
+      "driver": "Harman Singh",
       "rating": 4.8,
-      "estimatedTravelTime": "4 hours 30 minutes"
+      "vehicle": {
+        "make": "Jeep",
+        "model": "Compass",
+        "year": 2018
+      },
+      "estimatedTravelTime": "4 hours "
     },
     {
       "id": 9,
       "from": "Goa",
       "to": "Mangalore",
       "fare": 750,
+      "driver": "Francis D'Souza",
       "rating": 4.5,
-      "estimatedTravelTime": "5 hours"
+      "vehicle": {
+        "make": "Mahindra",
+        "model": "XUV500",
+        "year": 2020
+      },
+      "estimatedTravelTime": "5 hours 30 minutes"
     },
     {
       "id": 10,
       "from": "Lucknow",
       "to": "Kanpur",
       "fare": 350,
+      "driver": "Aditya Chauhan",
       "rating": 4.6,
-      "estimatedTravelTime": "2 hours 15 minutes"
+      "vehicle": {
+        "make": "Maruti Suzuki",
+        "model": "Baleno",
+        "year": 2021
+      },
+      "estimatedTravelTime": "2 hours 30 minutes"
     },
     {
       "id": 11,
       "from": "Dehradun",
       "to": "Mussoorie",
       "fare": 300,
+      "driver": "Vikas Rawat",
       "rating": 4.7,
-      "estimatedTravelTime": "1 hour 30 minutes"
+      "vehicle": {
+        "make": "Renault",
+        "model": "Duster",
+        "year": 2018
+      },
+      "estimatedTravelTime": "1 hour "
     },
     {
       "id": 12,
       "from": "Indore",
       "to": "Bhopal",
       "fare": 500,
+      "driver": "Mohit Sharma",
       "rating": 4.5,
-      "estimatedTravelTime": "4 hours"
+      "vehicle": {
+        "make": "Volkswagen",
+        "model": "Polo",
+        "year": 2019
+      },
+      "estimatedTravelTime": "4 hours 30 minutes"
     },
     {
       "id": 13,
       "from": "Jaipur",
       "to": "Udaipur",
       "fare": 800,
+      "driver": "Rahul Mehta",
       "rating": 4.8,
-      "estimatedTravelTime": "6 hours"
+      "vehicle": {
+        "make": "Hyundai",
+        "model": "Creta",
+        "year": 2020
+      },
+      "estimatedTravelTime": "6 hours 30 minutes"
     },
     {
       "id": 14,
       "from": "Kochi",
       "to": "Thiruvananthapuram",
       "fare": 650,
+      "driver": "Anoop Krishnan",
       "rating": 4.9,
-      "estimatedTravelTime": "5 hours"
+      "vehicle": {
+        "make": "Nissan",
+        "model": "Kicks",
+        "year": 2021
+      },
+      "estimatedTravelTime": "5 hours 30 minutes"
     },
     {
       "id": 15,
       "from": "Bhubaneswar",
       "to": "Puri",
       "fare": 400,
+      "driver": "Sourav Patnaik",
       "rating": 4.6,
-      "estimatedTravelTime": "2 hours"
+      "vehicle": {
+        "make": "Ford",
+        "model": "Figo",
+        "year": 2017
+      },
+      "estimatedTravelTime": "2 hours 30 minutes"
     },
     {
       "id": 16,
       "from": "Guwahati",
       "to": "Shillong",
       "fare": 600,
+      "driver": "Arun Baruah",
       "rating": 4.8,
-      "estimatedTravelTime": "3 hours 30 minutes"
+      "vehicle": {
+        "make": "Maruti Suzuki",
+        "model": "Vitara Brezza",
+        "year": 2019
+      },
+      "estimatedTravelTime": "3 hours"
     },
     {
       "id": 17,
       "from": "Patna",
       "to": "Ranchi",
       "fare": 700,
+      "driver": "Manish Kumar",
       "rating": 4.7,
-      "estimatedTravelTime": "5 hours 45 minutes"
+      "vehicle": {
+        "make": "Tata",
+        "model": "Harrier",
+        "year": 2020
+      },
+      "estimatedTravelTime": "5 hours"
     },
     {
       "id": 18,
       "from": "Gangtok",
       "to": "Darjeeling",
       "fare": 550,
+      "driver": "Rajiv Lama",
       "rating": 4.9,
-      "estimatedTravelTime": "3 hours 15 minutes"
+      "vehicle": {
+        "make": "Mahindra",
+        "model": "Scorpio",
+        "year": 2018
+      },
+      "estimatedTravelTime": "3 hours 30 minutes"
     },
     {
       "id": 19,
       "from": "Varanasi",
       "to": "Allahabad",
       "fare": 450,
+      "driver": "Amit Pandey",
       "rating": 4.6,
-      "estimatedTravelTime": "2 hours 30 minutes"
+      "vehicle": {
+        "make": "Honda",
+        "model": "Amaze",
+        "year": 2021
+      },
+      "estimatedTravelTime": "2 hours"
     },
     {
       "id": 20,
       "from": "Jodhpur",
       "to": "Jaisalmer",
       "fare": 750,
+      "driver": "Vikram Singh",
       "rating": 4.7,
+      "vehicle": {
+        "make": "Suzuki",
+        "model": "Ciaz",
+        "year": 2020
+      },
       "estimatedTravelTime": "4 hours 50 minutes"
     }
   ]
