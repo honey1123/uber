@@ -1,182 +1,164 @@
-[
-  {
-    "id": 1,
-    "from": "Mumbai",
-    "to": "Pune",
-    "fare": 530,
-    "driver": "Rajesh Kumar",
-    "rating": 4.3,
-    "estimatedTravelTime": "3 hours 15 minutes"
-  },
-  {
-    "id": 2,
-    "from": "New Delhi",
-    "to": "Jaipur",
-    "fare": 760,
-    "driver": "Amit Singh",
-    "rating": 4.9,
-    "estimatedTravelTime": "4 hours 45 minutes"
-  },
-  {
-    "id": 3,
-    "from": "Bengaluru",
-    "to": "Mysuru",
-    "fare": 440,
-    "driver": "Suresh Rao",
-    "rating": 4.7,
-    "estimatedTravelTime": "3 hours 45 minutes"
-  },
-  {
-    "id": 4,
-    "from": "Chennai",
-    "to": "Pondicherry",
-    "fare": 620,
-    "driver": "Vijay Kumar",
-    "rating": 4.4,
-    "estimatedTravelTime": "3 hours 15 minutes"
-  },
-  {
-    "id": 5,
-    "from": "Kolkata",
-    "to": "Digha",
-    "fare": 680,
-    "driver": "Anirudh Bose",
-    "rating": 4.8,
-    "estimatedTravelTime": "4 hours 45 minutes"
-  },
-  {
-    "id": 6,
-    "from": "Ahmedabad",
-    "to": "Vadodara",
-    "fare": 380,
-    "driver": "Nitin Desai",
-    "rating": 4.5,
-    "estimatedTravelTime": "2 hours 30 minutes"
-  },
-  {
-    "id": 7,
-    "from": "Hyderabad",
-    "to": "Warangal",
-    "fare": 540,
-    "driver": "Karthik Reddy",
-    "rating": 4.8,
-    "estimatedTravelTime": "4 hours"
-  },
-  {
-    "id": 8,
-    "from": "Chandigarh",
-    "to": "Amritsar",
-    "fare": 670,
-    "driver": "Harman Singh",
-    "rating": 4.6,
-    "estimatedTravelTime": "5 hours 15 minutes"
-  },
-  {
-    "id": 9,
-    "from": "Goa",
-    "to": "Mangalore",
-    "fare": 730,
-    "driver": "Francis D'Souza",
-    "rating": 4.3,
-    "estimatedTravelTime": "5 hours 30 minutes"
-  },
-  {
-    "id": 10,
-    "from": "Lucknow",
-    "to": "Kanpur",
-    "fare": 330,
-    "driver": "Aditya Chauhan",
-    "rating": 4.7,
-    "estimatedTravelTime": "2 hours 45 minutes"
-  },
-  {
-    "id": 11,
-    "from": "Dehradun",
-    "to": "Mussoorie",
-    "fare": 280,
-    "driver": "Vikas Rawat",
-    "rating": 4.6,
-    "estimatedTravelTime": "1 hour 45 minutes"
-  },
-  {
-    "id": 12,
-    "from": "Indore",
-    "to": "Bhopal",
-    "fare": 480,
-    "driver": "Mohit Sharma",
-    "rating": 4.4,
-    "estimatedTravelTime": "4 hours 30 minutes"
-  },
-  {
-    "id": 13,
-    "from": "Jaipur",
-    "to": "Udaipur",
-    "fare": 830,
-    "driver": "Rahul Mehta",
-    "rating": 4.7,
-    "estimatedTravelTime": "6 hours 30 minutes"
-  },
-  {
-    "id": 14,
-    "from": "Kochi",
-    "to": "Thiruvananthapuram",
-    "fare": 670,
-    "driver": "Anoop Krishnan",
-    "rating": 5,
-    "estimatedTravelTime": "5 hours 15 minutes"
-  },
-  {
-    "id": 15,
-    "from": "Bhubaneswar",
-    "to": "Puri",
-    "fare": 420,
-    "driver": "Sourav Patnaik",
-    "rating": 4.5,
-    "estimatedTravelTime": "2 hours 15 minutes"
-  },
-  {
-    "id": 16,
-    "from": "Guwahati",
-    "to": "Shillong",
-    "fare": 580,
-    "driver": "Arun Baruah",
-    "rating": 4.9,
-    "estimatedTravelTime": "3 hours 45 minutes"
-  },
-  {
-    "id": 17,
-    "from": "Patna",
-    "to": "Ranchi",
-    "fare": 710,
-    "driver": "Manish Kumar",
-    "rating": 4.8,
-    "estimatedTravelTime": "6 hours"
-  },
-  {
-    "id": 18,
-    "from": "Gangtok",
-    "to": "Darjeeling",
-    "fare": 530,
-    "driver": "Rajiv Lama",
-    "rating": 5,
-    "estimatedTravelTime": "3 hours 45 minutes"
-  },
-  {
-    "id": 19,
-    "from": "Varanasi",
-    "to": "Allahabad",
-    "fare": 420,
-    "driver": "Amit Pandey",
-    "rating": 4.5,
-    "estimatedTravelTime": "2 hours"
-  },
-  {
-    "id": 20,
-    "from": "Jodhpur",
-    "to": "Jaisalmer",
-    "fare": 770,
-    "driver": "Vikram Singh",
-    "rating": 4.6,
-    "estimatedTravelTime": "5 hours 20 minutes"
-  }
-]
+{
+  "trips": [
+    {
+      "id": 1,
+      "from": "Mumbai",
+      "to": "Pune",
+      "fare": 500,
+      "rating": 4.5,
+      "estimatedTravelTime": "3 hours"
+    },
+    {
+      "id": 2,
+      "from": "New Delhi",
+      "to": "Jaipur",
+      "fare": 800,
+      "rating": 4.7,
+      "estimatedTravelTime": "5 hours"
+    },
+    {
+      "id": 3,
+      "from": "Bengaluru",
+      "to": "Mysuru",
+      "fare": 450,
+      "rating": 4.8,
+      "estimatedTravelTime": "4 hours"
+    },
+    {
+      "id": 4,
+      "from": "Chennai",
+      "to": "Pondicherry",
+      "fare": 600,
+      "rating": 4.6,
+      "estimatedTravelTime": "3 hours 30 minutes"
+    },
+    {
+      "id": 5,
+      "from": "Kolkata",
+      "to": "Digha",
+      "fare": 700,
+      "rating": 4.9,
+      "estimatedTravelTime": "4 hours 15 minutes"
+    },
+    {
+      "id": 6,
+      "from": "Ahmedabad",
+      "to": "Vadodara",
+      "fare": 400,
+      "rating": 4.4,
+      "estimatedTravelTime": "2 hours"
+    },
+    {
+      "id": 7,
+      "from": "Hyderabad",
+      "to": "Warangal",
+      "fare": 550,
+      "rating": 4.7,
+      "estimatedTravelTime": "3 hours 45 minutes"
+    },
+    {
+      "id": 8,
+      "from": "Chandigarh",
+      "to": "Amritsar",
+      "fare": 650,
+      "rating": 4.8,
+      "estimatedTravelTime": "4 hours 30 minutes"
+    },
+    {
+      "id": 9,
+      "from": "Goa",
+      "to": "Mangalore",
+      "fare": 750,
+      "rating": 4.5,
+      "estimatedTravelTime": "5 hours"
+    },
+    {
+      "id": 10,
+      "from": "Lucknow",
+      "to": "Kanpur",
+      "fare": 350,
+      "rating": 4.6,
+      "estimatedTravelTime": "2 hours 15 minutes"
+    },
+    {
+      "id": 11,
+      "from": "Dehradun",
+      "to": "Mussoorie",
+      "fare": 300,
+      "rating": 4.7,
+      "estimatedTravelTime": "1 hour 30 minutes"
+    },
+    {
+      "id": 12,
+      "from": "Indore",
+      "to": "Bhopal",
+      "fare": 500,
+      "rating": 4.5,
+      "estimatedTravelTime": "4 hours"
+    },
+    {
+      "id": 13,
+      "from": "Jaipur",
+      "to": "Udaipur",
+      "fare": 800,
+      "rating": 4.8,
+      "estimatedTravelTime": "6 hours"
+    },
+    {
+      "id": 14,
+      "from": "Kochi",
+      "to": "Thiruvananthapuram",
+      "fare": 650,
+      "rating": 4.9,
+      "estimatedTravelTime": "5 hours"
+    },
+    {
+      "id": 15,
+      "from": "Bhubaneswar",
+      "to": "Puri",
+      "fare": 400,
+      "rating": 4.6,
+      "estimatedTravelTime": "2 hours"
+    },
+    {
+      "id": 16,
+      "from": "Guwahati",
+      "to": "Shillong",
+      "fare": 600,
+      "rating": 4.8,
+      "estimatedTravelTime": "3 hours 30 minutes"
+    },
+    {
+      "id": 17,
+      "from": "Patna",
+      "to": "Ranchi",
+      "fare": 700,
+      "rating": 4.7,
+      "estimatedTravelTime": "5 hours 45 minutes"
+    },
+    {
+      "id": 18,
+      "from": "Gangtok",
+      "to": "Darjeeling",
+      "fare": 550,
+      "rating": 4.9,
+      "estimatedTravelTime": "3 hours 15 minutes"
+    },
+    {
+      "id": 19,
+      "from": "Varanasi",
+      "to": "Allahabad",
+      "fare": 450,
+      "rating": 4.6,
+      "estimatedTravelTime": "2 hours 30 minutes"
+    },
+    {
+      "id": 20,
+      "from": "Jodhpur",
+      "to": "Jaisalmer",
+      "fare": 750,
+      "rating": 4.7,
+      "estimatedTravelTime": "4 hours 50 minutes"
+    }
+  ]
+}
