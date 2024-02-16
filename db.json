@@ -4,7 +4,7 @@
             "id": 1,
             "from": "Mumbai",
             "to": "Pune",
-            "fare": 600,
+            "fare": 650,
             "driver": "Rajiv Malhotra",
             "rating": 4.7,
             "vehicle": {
