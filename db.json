@@ -1,284 +1,304 @@
 {
-  "trips": [
-    {
-      "id": 1,
-      "from": "Mumbai",
-      "to": "Pune",
-      "fare": 500,
-      "driver": "Rajesh Kumar",
-      "rating": 4.5,
-      "vehicle": {
-        "make": "Maruti Suzuki",
-        "model": "Swift",
-        "year": 2019
-      },
-      "estimatedTravelTime": "3 hours 30 minutes"
-    },
-    {
-      "id": 2,
-      "from": "New Delhi",
-      "to": "Jaipur",
-      "fare": 800,
-      "driver": "Amit Singh",
-      "rating": 4.7,
-      "vehicle": {
-        "make": "Hyundai",
-        "model": "i20",
-        "year": 2018
-      },
-      "estimatedTravelTime": "5 hours 30 minutes"
-    },
-    {
-      "id": 3,
-      "from": "Bengaluru",
-      "to": "Mysuru",
-      "fare": 450,
-      "driver": "Suresh Rao",
-      "rating": 4.8,
-      "vehicle": {
-        "make": "Toyota",
-        "model": "Innova",
-        "year": 2020
-      },
-      "estimatedTravelTime": "4 hours"
-    },
-    {
-      "id": 4,
-      "from": "Chennai",
-      "to": "Pondicherry",
-      "fare": 600,
-      "driver": "Vijay Kumar",
-      "rating": 4.6,
-      "vehicle": {
-        "make": "Ford",
-        "model": "EcoSport",
-        "year": 2017
-      },
-      "estimatedTravelTime": "3 hours"
-    },
-    {
-      "id": 5,
-      "from": "Kolkata",
-      "to": "Digha",
-      "fare": 700,
-      "driver": "Anirudh Bose",
-      "rating": 4.9,
-      "vehicle": {
-        "make": "Honda",
-        "model": "City",
-        "year": 2021
-      },
-      "estimatedTravelTime": "4 hours "
-    },
-    {
-      "id": 6,
-      "from": "Ahmedabad",
-      "to": "Vadodara",
-      "fare": 400,
-      "driver": "Nitin Desai",
-      "rating": 4.4,
-      "vehicle": {
-        "make": "Tata",
-        "model": "Nexon",
-        "year": 2020
-      },
-      "estimatedTravelTime": "2 hours"
-    },
-    {
-      "id": 7,
-      "from": "Hyderabad",
-      "to": "Warangal",
-      "fare": 550,
-      "driver": "Karthik Reddy",
-      "rating": 4.7,
-      "vehicle": {
-        "make": "Skoda",
-        "model": "Octavia",
-        "year": 2019
-      },
-      "estimatedTravelTime": "3 hours 45 minutes"
-    },
-    {
-      "id": 8,
-      "from": "Chandigarh",
-      "to": "Amritsar",
-      "fare": 650,
-      "driver": "Harman Singh",
-      "rating": 4.8,
-      "vehicle": {
-        "make": "Jeep",
-        "model": "Compass",
-        "year": 2018
-      },
-      "estimatedTravelTime": "4 hours "
-    },
-    {
-      "id": 9,
-      "from": "Goa",
-      "to": "Mangalore",
-      "fare": 750,
-      "driver": "Francis D'Souza",
-      "rating": 4.5,
-      "vehicle": {
-        "make": "Mahindra",
-        "model": "XUV500",
-        "year": 2020
-      },
-      "estimatedTravelTime": "5 hours 30 minutes"
-    },
-    {
-      "id": 10,
-      "from": "Lucknow",
-      "to": "Kanpur",
-      "fare": 350,
-      "driver": "Aditya Chauhan",
-      "rating": 4.6,
-      "vehicle": {
-        "make": "Maruti Suzuki",
-        "model": "Baleno",
-        "year": 2021
-      },
-      "estimatedTravelTime": "2 hours 30 minutes"
-    },
-    {
-      "id": 11,
-      "from": "Dehradun",
-      "to": "Mussoorie",
-      "fare": 300,
-      "driver": "Vikas Rawat",
-      "rating": 4.7,
-      "vehicle": {
-        "make": "Renault",
-        "model": "Duster",
-        "year": 2018
-      },
-      "estimatedTravelTime": "1 hour "
-    },
-    {
-      "id": 12,
-      "from": "Indore",
-      "to": "Bhopal",
-      "fare": 500,
-      "driver": "Mohit Sharma",
-      "rating": 4.5,
-      "vehicle": {
-        "make": "Volkswagen",
-        "model": "Polo",
-        "year": 2019
-      },
-      "estimatedTravelTime": "4 hours 30 minutes"
-    },
-    {
-      "id": 13,
-      "from": "Jaipur",
-      "to": "Udaipur",
-      "fare": 800,
-      "driver": "Rahul Mehta",
-      "rating": 4.8,
-      "vehicle": {
-        "make": "Hyundai",
-        "model": "Creta",
-        "year": 2020
-      },
-      "estimatedTravelTime": "6 hours 30 minutes"
-    },
-    {
-      "id": 14,
-      "from": "Kochi",
-      "to": "Thiruvananthapuram",
-      "fare": 650,
-      "driver": "Anoop Krishnan",
-      "rating": 4.9,
-      "vehicle": {
-        "make": "Nissan",
-        "model": "Kicks",
-        "year": 2021
-      },
-      "estimatedTravelTime": "5 hours 30 minutes"
-    },
-    {
-      "id": 15,
-      "from": "Bhubaneswar",
-      "to": "Puri",
-      "fare": 400,
-      "driver": "Sourav Patnaik",
-      "rating": 4.6,
-      "vehicle": {
-        "make": "Ford",
-        "model": "Figo",
-        "year": 2017
-      },
-      "estimatedTravelTime": "2 hours 30 minutes"
-    },
-    {
-      "id": 16,
-      "from": "Guwahati",
-      "to": "Shillong",
-      "fare": 600,
-      "driver": "Arun Baruah",
-      "rating": 4.8,
-      "vehicle": {
-        "make": "Maruti Suzuki",
-        "model": "Vitara Brezza",
-        "year": 2019
-      },
-      "estimatedTravelTime": "3 hours"
-    },
-    {
-      "id": 17,
-      "from": "Patna",
-      "to": "Ranchi",
-      "fare": 700,
-      "driver": "Manish Kumar",
-      "rating": 4.7,
-      "vehicle": {
-        "make": "Tata",
-        "model": "Harrier",
-        "year": 2020
-      },
-      "estimatedTravelTime": "5 hours"
-    },
-    {
-      "id": 18,
-      "from": "Gangtok",
-      "to": "Darjeeling",
-      "fare": 550,
-      "driver": "Rajiv Lama",
-      "rating": 4.9,
-      "vehicle": {
-        "make": "Mahindra",
-        "model": "Scorpio",
-        "year": 2018
-      },
-      "estimatedTravelTime": "3 hours 30 minutes"
-    },
-    {
-      "id": 19,
-      "from": "Varanasi",
-      "to": "Allahabad",
-      "fare": 450,
-      "driver": "Amit Pandey",
-      "rating": 4.6,
-      "vehicle": {
-        "make": "Honda",
-        "model": "Amaze",
-        "year": 2021
-      },
-      "estimatedTravelTime": "2 hours"
-    },
-    {
-      "id": 20,
-      "from": "Jodhpur",
-      "to": "Jaisalmer",
-      "fare": 750,
-      "driver": "Vikram Singh",
-      "rating": 4.7,
-      "vehicle": {
-        "make": "Suzuki",
-        "model": "Ciaz",
-        "year": 2020
-      },
-      "estimatedTravelTime": "4 hours 50 minutes"
-    }
-  ]
+	"trips": [
+	  {
+		"id": 1,
+		"from": "Mumbai",
+		"to": "Pune",
+		"fare": 600,
+		"driver": "Rajiv Malhotra",
+		"rating": 4.7,
+		"vehicle": {
+		  "make": "Toyota",
+		  "model": "Corolla",
+		  "year": 2020
+		},
+		"estimatedTravelTime": "3 hours 30 minutes",
+		"dateTime": "2024-02-16T17:00:00Z"
+	  },
+	  {
+		"id": 2,
+		"from": "New Delhi",
+		"to": "Jaipur",
+		"fare": 900,
+		"driver": "Alok Verma",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Honda",
+		  "model": "Civic",
+		  "year": 2019
+		},
+		"estimatedTravelTime": "5 hours 30 minutes",
+		"dateTime": "2024-02-16T17:25:00Z"
+	  },
+	  {
+		"id": 3,
+		"from": "Bengaluru",
+		"to": "Mysuru",
+		"fare": 500,
+		"driver": "Srinivas Naidu",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Mercedes-Benz",
+		  "model": "GLA",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "4 hours",
+		"dateTime": "2024-02-16T17:45:00Z"
+	  },
+	  {
+		"id": 4,
+		"from": "Chennai",
+		"to": "Pondicherry",
+		"fare": 700,
+		"driver": "Vikramaditya Singh",
+		"rating": 4.7,
+		"vehicle": {
+		  "make": "BMW",
+		  "model": "3 Series",
+		  "year": 2020
+		},
+		"estimatedTravelTime": "3 hours",
+		"dateTime": "2024-02-16T18:00:00Z"
+	  },
+	  {
+		"id": 5,
+		"from": "Kolkata",
+		"to": "Digha",
+		"fare": 800,
+		"driver": "Siddharth Banerjee",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Audi",
+		  "model": "A4",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "4 hours",
+		"dateTime": "2024-02-16T18:30:00Z"
+	  },
+	  {
+		"id": 6,
+		"from": "Ahmedabad",
+		"to": "Vadodara",
+		"fare": 450,
+		"driver": "Prateek Shah",
+		"rating": 4.6,
+		"vehicle": {
+		  "make": "Volkswagen",
+		  "model": "Jetta",
+		  "year": 2019
+		},
+		"estimatedTravelTime": "2 hours",
+		"dateTime": "2024-02-16T18:45:00Z"
+	  },
+	  {
+		"id": 7,
+		"from": "Hyderabad",
+		"to": "Warangal",
+		"fare": 600,
+		"driver": "Kiran Reddy",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Ford",
+		  "model": "Endeavour",
+		  "year": 2020
+		},
+		"estimatedTravelTime": "3 hours 45 minutes",
+		"dateTime": "2024-02-16T20:00:00Z"
+	  },
+	  {
+		"id": 8,
+		"from": "Chandigarh",
+		"to": "Amritsar",
+		"fare": 700,
+		"driver": "Gurpreet Singh",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Chevrolet",
+		  "model": "Cruze",
+		  "year": 2019
+		},
+		"estimatedTravelTime": "4 hours",
+		"dateTime": "2024-02-16T22:00:00Z"
+	  },
+	  {
+		"id": 9,
+		"from": "Goa",
+		"to": "Mangalore",
+		"fare": 800,
+		"driver": "Rohan Desai",
+		"rating": 4.7,
+		"vehicle": {
+		  "make": "Volvo",
+		  "model": "XC60",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "5 hours 30 minutes",
+		"dateTime": "2024-02-17T08:00:00Z"
+	  },
+	  {
+		"id": 10,
+		"from": "Lucknow",
+		"to": "Kanpur",
+		"fare": 400,
+		"driver": "Arjun Gupta",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Tesla",
+		  "model": "Model 3",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "2 hours 30 minutes",
+		"dateTime": "2024-02-17T10:00:00Z"
+	  },
+	  {
+		"id": 11,
+		"from": "Dehradun",
+		"to": "Mussoorie",
+		"fare": 350,
+		"driver": "Vivek Joshi",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Porsche",
+		  "model": "Macan",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "1 hour",
+		"dateTime": "2024-02-17T12:00:00Z"
+	  },
+	  {
+		"id": 12,
+		"from": "Indore",
+		"to": "Bhopal",
+		"fare": 600,
+		"driver": "Rakesh Tiwari",
+		"rating": 4.7,
+		"vehicle": {
+		  "make": "Lamborghini",
+		  "model": "Urus",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "4 hours 30 minutes",
+		"dateTime": "2024-02-17T14:00:00Z"
+	  },
+	  {
+		"id": 13,
+		"from": "Jaipur",
+		"to": "Udaipur",
+		"fare": 900,
+		"driver": "Sachin Sharma",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Ferrari",
+		  "model": "Portofino",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "6 hours 30 minutes",
+		"dateTime": "2024-02-17T16:00:00Z"
+	  },
+	  {
+		"id": 14,
+		"from": "Kochi",
+		"to": "Thiruvananthapuram",
+		"fare": 700,
+		"driver": "Vijay Menon",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Bentley",
+		  "model": "Bentayga",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "5 hours 30 minutes",
+		"dateTime": "2024-02-17T18:00:00Z"
+	  },
+	  {
+		"id": 15,
+		"from": "Bhubaneswar",
+		"to": "Puri",
+		"fare": 450,
+		"driver": "Prakash Mishra",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Rolls-Royce",
+		  "model": "Ghost",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "2 hours 30 minutes",
+		"dateTime": "2024-02-17T20:00:00Z"
+	  },
+	  {
+		"id": 16,
+		"from": "Guwahati",
+		"to": "Shillong",
+		"fare": 700,
+		"driver": "Deepak Das",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Maserati",
+		  "model": "Levante",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "3 hours",
+		"dateTime": "2024-02-17T22:00:00Z"
+	  },
+	  {
+		"id": 17,
+		"from": "Patna",
+		"to": "Ranchi",
+		"fare": 800,
+		"driver": "Rajesh Kumar",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "Aston Martin",
+		  "model": "DBX",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "5 hours",
+		"dateTime": "2024-02-18T08:00:00Z"
+	  },
+	  {
+		"id": 18,
+		"from": "Gangtok",
+		"to": "Darjeeling",
+		"fare": 650,
+		"driver": "Dorji Wangchuk",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Bugatti",
+		  "model": "Chiron",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "3 hours 30 minutes",
+		"dateTime": "2024-02-18T10:00:00Z"
+	  },
+	  {
+		"id": 19,
+		"from": "Varanasi",
+		"to": "Allahabad",
+		"fare": 500,
+		"driver": "Sandeep Srivastava",
+		"rating": 4.8,
+		"vehicle": {
+		  "make": "McLaren",
+		  "model": "720S",
+		  "year": 2021
+		},
+		"estimatedTravelTime": "2 hours",
+		"dateTime": "2024-02-18T12:00:00Z"
+	  },
+	  {
+		"id": 20,
+		"from": "Jodhpur",
+		"to": "Jaisalmer",
+		"fare": 800,
+		"driver": "Kunal Singh",
+		"rating": 4.9,
+		"vehicle": {
+		  "make": "Lexus",
+		  "model": "RX",
+		  "year": 2022
+		},
+		"estimatedTravelTime": "4 hours 50 minutes",
+		"dateTime": "2024-02-18T14:00:00Z"
+	  }
+	]
 }
